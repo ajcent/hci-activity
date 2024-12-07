@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <div className="flex flex-col h-screen bg-background dark">
-      <Menubar className="border-b px-2 lg:px-4 py-2 m-2">
+      <Menubar className="border-b px-2 lg:px-4 py-2 m-2 overflow-x-auto overflow-y-hidden">
         <MenubarMenu>
           <MenubarTrigger className="font-bold text-foreground">
             File
